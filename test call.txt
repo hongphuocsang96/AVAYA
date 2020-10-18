@@ -1,0 +1,17 @@
+To place a test call to a trunk or touch-tone phone
+1.    At the system terminal, enable a feature access code forFacility Test Call.Use the command change feature and make an entry in the Facility Test Call field. This will be your Facility Test Call access code.
+2.    Be sure the object you are testing is not in use.
+3.    At your phone, dial the feature access code for Facility Test Call. Listen for dial tone.
+4.    Dial the 6- or 7-digit port address in UUCSSss format, where:
+•    UU = cabinet number (01, 02, etc.)
+•    C = carrier number (A=1, B=2, C=3, D=4, E=5)
+•    SS = slot number (depends on system)
+•    ss = port number (depends on circuit pack)
+
+
+
+change fea
+set code on Facility Test Calls Access Code
+Test call out on port 01a1201
+	- 01 a 12 01 (waiting tone) 0944018482
+
